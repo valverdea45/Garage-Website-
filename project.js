@@ -11,5 +11,11 @@ function mainFunction(callBackFunction){
 
 mainFunction(callBackFunction)
 
-const hi = `hello!`
-console.log(`${hi} world!!!`)
+const greetings = ["Hello!", "Hi!", "Howdy!", "Hey buddy!"]
+
+
+function sayHI(collectionOfGreetings){
+    for(const greeting of collectionOfGreetings){
+        console.log(`${greeting}, What a wonderful day to code!`)
+    }
+}
