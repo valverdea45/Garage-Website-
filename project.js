@@ -19,3 +19,4 @@ function sayHI(collectionOfGreetings){
         console.log(`${greeting}, What a wonderful day to code!`)
     }
 }
+sayHI(greetings)
