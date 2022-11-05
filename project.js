@@ -13,3 +13,15 @@ mainFunction(callBackFunction)
 
 const hi = `hello!`
 console.log(`${hi} world!!!`)
+
+
+const collectionOfNumbers = [2,4,6,8]
+
+function multiplyArrayByTwo(array){
+    const newArray = array.map((e) => {
+        return e * 2
+    })
+    console.log(newArray)
+}
+
+multiplyArrayByTwo(collectionOfNumbers)
