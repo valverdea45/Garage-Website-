@@ -10,3 +10,6 @@ function mainFunction(callBackFunction){
 }
 
 mainFunction(callBackFunction)
+
+const hi = `hello!`
+console.log(`${hi} world!!!`)
